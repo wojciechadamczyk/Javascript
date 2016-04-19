@@ -22,11 +22,11 @@ Każdy z obrazków jest przypisany do jednego z wyborów w selekcie. Napisz kod 
 ## Ćwiczenie 4
 Na stronie znajduje się formularz, który odsyła do strony ```http://www.htmlcodetutorial.com/cgi-bin/mycgi.pl```.
 Napisz walidację tego formularza w taki sposób, żeby wysyłany był tylko i wyłącznie wtedy, kiedy spełnione zostaną nastepujące warunki:
-1. Email zawiera w sobie @,
-2. Imię jest dłuższe niż 5 znaków,
-3. Nazwisko jest dłuższe niż 5 znaków,
-4. Hasło i hasło 2 są identyczne,
-5. Checkbox musi być zaznaczony.
+ 1. Email zawiera w sobie @,
+ 2. Imię jest dłuższe niż 5 znaków,
+ 3. Nazwisko jest dłuższe niż 5 znaków,
+ 4. Hasło i hasło 2 są identyczne,
+ 5. Checkbox musi być zaznaczony.
 
 Dodatkowe. Hasło ma co najmniej 5 znaków (w tym co najmniej jedną liczbę i jedną lietrę).
 
@@ -36,8 +36,8 @@ Jest to bardzo ważne, ponieważ w ten sposób będziecie się zazwyczaj porozum
 ## Ćwiczenie 5
 Na stronie znajdue się tablica z wynikami w lokalnych mistrzostwach piłkarskich. Poniżej znajduje się formularz, który wypełniają wszyscy sędziowie po ukończonych rozgrywkach.
 Napisz kod JavaScript w taki sposób, żeby po wybraniu odpowiednich drużyn nastąpiła walidacja:
-1. Obie drużyny muszą być różne,
-2. Liczba goli powinna być nieujemna.
+ 1. Obie drużyny muszą być różne,
+ 2. Liczba goli powinna być nieujemna.
 
 Jeżeli formularz zostanie zweryfikowany poprawnie, odpowiednia informaja o wyniku spotkania powinna pojawić się w tablicy.
 
@@ -50,14 +50,14 @@ Nazwa karty ma być wpisana jak tylko jest możliwe jej ustalenie, poprawność 
 ![Przyklad](https://raw.github.com/)
 
 ### Zasady rozpoznawania kart:
-1. Karty Visa zaczynają się od cyfry 4.
-1. Karty Mastercard zaczynają się od cyfry 5.
-1. Karty American Express zaczynają się od cyfry 3. Następną cyfrą musi być 4 lub 7.
+ 1. Karty Visa zaczynają się od cyfry 4.
+ 2. Karty Mastercard zaczynają się od cyfry 5.
+ 3. Karty American Express zaczynają się od cyfry 3. Następną cyfrą musi być 4 lub 7.
 
 ### Zasady walidacji kart:
-1. Karty Visa mają od 13 do 16 cyfr.
-1. Karty Mastercard mają równo 16 cyfr.
-1. Karty American Express mają równo 15 cyfr.
+ 1. Karty Visa mają od 13 do 16 cyfr.
+ 2. Karty Mastercard mają równo 16 cyfr.
+ 3. Karty American Express mają równo 15 cyfr.
 
 Zasady walidacji kart są uproszczone (nie powinniście ich stosować w rzeczywistych projektach).
 Jezeli chcesz poznać prawdziwe zasady walidacji kart kredytowych, to są one opisane tutaj: 
