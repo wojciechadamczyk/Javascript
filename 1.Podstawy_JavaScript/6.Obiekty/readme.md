@@ -7,7 +7,7 @@ Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny i dobrze s
 
 ## Ćwiczenie 1
 
-Stwórz obiekt samochód, utwórz dla niego odpowiednie atrybuty i metody.
+Stwórz obiekt ```Car```, utwórz dla niego odpowiednie atrybuty i metody.
 Samochód powinien mieć następujące atrybuty:
   1. Markę,
   2. Kolor,

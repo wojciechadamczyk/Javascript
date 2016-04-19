@@ -6,11 +6,11 @@ Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny i dobrze s
 
 ## Ćwiczenie 1
 Zajrzyj do pliku zadanie1.js i przetstuj działanie obu funkcji.
-Dlaczego funkcja o nazwie jeden nie ma dostępu do zmiennej o nazwiezmienna2?
+Dlaczego funkcja o nazwie ```jeden``` nie ma dostępu do zmiennej o nazwie ```zmienna2```?
 Dla potwierdzenia zrozumienia tematu spróbuj napisać komentarze dla każdej z linijek kodu w tym pliku.
 
 ## Ćwiczenie 2
-Zajrzyj do pliku zadanie2.js i przetestuj działanie funkcji sortArray.
+Zajrzyj do pliku zadanie2.js i przetestuj działanie funkcji ```sortArray```.
 Dla potwierdzenia zrozumienia tematu spróbuj napisać komentarze dla każdej z linijek kodu w tym pliku.
 
 ## Ćwiczenie 3

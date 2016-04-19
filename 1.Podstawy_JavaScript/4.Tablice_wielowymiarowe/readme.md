@@ -12,4 +12,5 @@ Stwórz ręcznie 2 wymiarową tablicę i przetestuj ją na rozwiązaniu zadania 
 
 ## Ćwiczenie 3
 Napisz funckje ```create2DArray``` która przyjmuje 2 liczby całkowite ```rows``` i ```columns```. Zadaniem funkcji jest stworzenie i zwrócenie 2 wymiarowej tablicy o podanej ilości rzędów i kolumn. Każda komórka ma być wypełniona kolejną liczbą całkowitą. Nastepnie użyj rozwiązania z ćwiczenie 3 do wypisania tej tablicy w konsoli.
+
 Hint: Musisz użyć petli zagnieżdżonych.
