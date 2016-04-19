@@ -1,4 +1,4 @@
-# jQuery - Zaawansoane wyszukiwanie
+# jQuery - Modyfikowanie elementów
 
 ## Zadanie 1
 Znajdź w pliku index.html element o klasie ```people```, stwórz odpowiednią funkcję, która będzie wykonywała następujące czynności, po kliknięciu w przycisk dodaj:
