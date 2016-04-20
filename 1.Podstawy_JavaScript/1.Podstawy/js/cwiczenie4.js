@@ -3,13 +3,14 @@
  */
 
 
-function isNumbersGrowing(array){
-    // do tablicy możesz się odnieść przez zmienną array
-    // pamiętaj o zwruceniu poprawnych danych (return true albo return false)
+function canCreateTriagle(a, b, c){
+    // do liczb odwołuj się przez zmienne a, b i c
+    // pamiętaj o zwróceniu poprawnych danych (return true albo return false)
 }
 
-console.log("tablica [1,2,3,4,5,6,7]  jest rosnąca (powinno zwrócić true) " + isNumbersGrowing([1,2,3,4,5,6,7]));
-console.log("tablica [1,2,10,4,5,6,7] nie jest rosnąca (powinno zwrócić false) " + isNumbersGrowing([1,2,10,4,5,6,7]));
-console.log("tablica [-5,-4,0,4,6,21]  jest rosnąca (powinno zwrócić true) " + isNumbersGrowing([-5,-4,0,4,6,21]));
-console.log("tablica [-1,2,-1,4,5,6,7] nie jest rosnąca (powinno zwrócić false) " + isNumbersGrowing([-1,2,-1,4,5,6,7]));
-console.log("tablica [8]  jest rosnąca (powinno zwrócić true) " + isNumbersGrowing([8]));
+console.log("z liczb 5, 6, 4 można stworzyć trojkat (powinno zwrócić true) " + canCreateTriagle(5, 6, 4));
+console.log("z liczb 100, 3, 6 nie można stworzyć trojkata (powinno zwrócić false) " + canCreateTriagle(100, 3, 6));
+console.log("z liczb 12, 14, 9 można stworzyć trojkat (powinno zwrócić true) " + canCreateTriagle(12, 14, 9));
+console.log("z liczb 3, 6, 200 nie można stworzyć trojkata (powinno zwrócić false) " + canCreateTriagle(3, 6, 200));
+console.log("z liczb 65, 53, 74 można stworzyć trojkat (powinno zwrócić true) " + canCreateTriagle(65, 53, 74));
+console.log("z liczb 600, 800, 1 nie można stworzyć trojkata (powinno zwrócić false) " + canCreateTriagle(600, 800, 1));

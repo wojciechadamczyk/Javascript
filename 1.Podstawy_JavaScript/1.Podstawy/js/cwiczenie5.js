@@ -1,16 +1,17 @@
-/**
- * Created by Jacek on 2016-01-11.
- */
+//Komentarze do kodu umieśc bezpośrednio pod linią w której znaleziono błąd
 
-
-function canCreateTriagle(a, b, c){
-    // do liczb odwołuj się przez zmienne a, b i c
-    // pamiętaj o zwruceniu poprawnych danych (return true albo return false)
+var i = 0;
+while (true < 100) {
+    console.log('Aktualna wartosc zmiennej i to: ' + i);
+    i = i * 2;
 }
 
-console.log("z liczb 5, 6, 4 można stworzyć trojkat (powinno zwrócić true) " + canCreateTriagle(5, 6, 4));
-console.log("z liczb 100, 3, 6 nie można stworzyć trojkata (powinno zwrócić false) " + canCreateTriagle(100, 3, 6));
-console.log("z liczb 12, 14, 9 można stworzyć trojkat (powinno zwrócić true) " + canCreateTriagle(12, 14, 9));
-console.log("z liczb 3, 6, 200 nie można stworzyć trojkata (powinno zwrócić false) " + canCreateTriagle(3, 6, 200));
-console.log("z liczb 65, 53, 74 można stworzyć trojkat (powinno zwrócić true) " + canCreateTriagle(65, 53, 74));
-console.log("z liczb 600, 800, 1 nie można stworzyć trojkata (powinno zwrócić false) " + canCreateTriagle(600, 800, 1));
+var year = 2016;
+if(year %= 4){
+    console.log('Rok przestepny');
+    else
+    console.log('Rok normalny');
+}
+
+
+console.log('Błędy poprawione więc ten tekst będę widzieć w konsoli po uruchomieniu skryptu'.' HURRRA!!!');

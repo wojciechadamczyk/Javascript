@@ -6,4 +6,4 @@ Zadania są podzielone na odpowiednie działy:
 2. Operacje na DOM - 2 dni
 3. Podstawy jQuery - 1 dzień
 
-Dodatkowow możecie znaleźć warsztaty w których macie opisane krok po kroku jak tworzyć najpopularniejsze elementy wtstępujące na stronach internetowych. Zazwyczaj jest to pracą Front-end developerów, ale warto żebyście wiedzieli jak je tworzyć.  
+Dodatkowo możecie znaleźć warsztaty w których macie opisane krok po kroku jak tworzyć najpopularniejsze elementy wtstępujące na stronach internetowych. Zazwyczaj jest to pracą Front-end developerów, ale warto żebyście wiedzieli jak je tworzyć.  
