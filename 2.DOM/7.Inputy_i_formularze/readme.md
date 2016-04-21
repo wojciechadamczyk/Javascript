@@ -12,7 +12,7 @@ Walidacja karty kredytowej.
 Zadanie polega na walidacji kart kredytowych wpisywanych w formularz na stronie. Walidacja ma następować w czasie rzeczywistym (czyli po wprowadzeniu każdego numeru).
 Nazwa karty ma być wpisana jak tylko jest możliwe jej ustalenie, poprawność karty ma byc pokazana po wpisaniu odpowiedniej liczby cyfr. 
 
-![Przyklad](task_assets/credit_card.png)
+![Przyklad](tasks_assets/credit_card.png)
 
 ### Zasady rozpoznawania kart:
  1. Karty Visa zaczynają się od cyfry 4.
