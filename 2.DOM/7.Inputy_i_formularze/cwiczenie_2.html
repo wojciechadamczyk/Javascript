@@ -18,35 +18,30 @@
 <div class="container">
     <div class='col-xs-12 col-sm-6 col-sm-offset-3'>
         <div class='page-header'>
-            <h1>Dodatki</h1>
-            <p>
-                Kwota za dodatki: <span id="price">0zł</span>
-            </p>
+            <h1>Zamówienie</h1>
         </div>
 
         <div class='panel'>
             <div class='panel-body'>
                 <form>
-                    <div class="checkbox">
-                        <label><input type="checkbox">Wszystkie dodatki</label>
+                    <div class='form-group' id="basicData">
+                        <label>Imie:</label>
+                        <input type="text" class='form-control' id='name'>
+                        <label>Nazwisko:</label>
+                        <input type="text" class='form-control'  id='surname'>
+                        <label>Adres:</label>
+                        <input type="text" class='form-control'  id='address'>
                     </div>
                     <div class="checkbox">
-                        <label><input type="checkbox" data-price="3.50">Dodatkowy ser - 3,50zł</label>
+                        <label><input type="checkbox" id="invoice"> Faktura VAT</label>
                     </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" data-price="2.20">Dodatkowy sos - 2,20zł</label>
-                    </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" data-price="5.00">Dodatkowa szynka - 5zł</label>
-                    </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" data-price="4.10">Ananas - 4,10zł</label>
-                    </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox" data-price="3.50">Pieczarki - 3,50zł</label>
-                    </div>
-                    <div class="checkbox">
-                        <label><input type="checkbox">Wyczyść</label>
+                    <div class='form-group' id="invoiceData">
+                        <label>NIP:</label>
+                        <input type="text" class='form-control' id='nip'>
+                        <label>Adres firmy:</label>
+                        <input type="text" class='form-control'  id='companyName'>
+                        <label>Nazwa firmy:</label>
+                        <input type="text" class='form-control'  id='companyAddress'>
                     </div>
                     <br>
                     <p>

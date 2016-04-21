@@ -7,11 +7,55 @@
 </head>
 <body>
 
-<ul class="menu">
-    <!-- Przykładowy element: <li>Element 1 - w chwili dodania było 0 elementów</li> -->
-</ul>
+<table id="orders">
+    <tr>
+        <td>
+            Numer zamówienia
+        </td>
+        <td >
+            Przedmiot
+        </td>
+        <td>
+            Ilość
+        </td>
+    </tr>
+    <tr>
+        <td >
+            1
+        </td>
+        <td>
+            Komputer
+        </td>
+        <td>
+            2
+        </td>
+    </tr>
+    <tr>
+        <td >
+            1
+        </td>
+        <td>
+            Klawiatura
+        </td>
+        <td>
+            2
+        </td>
+    </tr>
+</table>
 
-<a class="button">Add element to list!</a>
+<label>
+    Numer zamówienia:
+    <input type="text" id="orderId">
+</label>
+<label>
+    Przedmiot:
+    <input type="text" id="item">
+</label>
+<label>
+    Ilość:
+    <input type="text" id="quantity">
+</label>
 
+<a class="button" id="addBtn">Dodaj przedmiot</a>
 </body>
 </html>
