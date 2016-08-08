@@ -4,4 +4,4 @@ function mathInfo() {
 }
 
 //to wywołanie ma spowodować wyświetlenie w konsoli informacji z zadania
-matchInfo();
+mathInfo();
