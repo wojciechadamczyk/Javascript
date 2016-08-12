@@ -8,8 +8,8 @@ Pamiętaj, żeby oddzielać zadania komentarzami i pisać czytelny, dobrze sform
 W pliku **js** dopisz kod, który zamieni miejscami **klasę** i **id** dla elementu znajdującego się w zmiennej ```homeElement```
 
 ### Zadanie 2 &ndash; rozwiązywane z wykładowcą
-Przeanalizuj kod HTML i JavaScript tego zadania. Wypisz w konsoli wszystkie wcześniej przygotowane zmienne, ich typy i klasy.
-W przypadku tablic przeiteruj (używając np. pętli **for**), wypisując typ i klasę dla każdego elementu, który znajduje się w tablicy.
+Przeanalizuj kod HTML i JavaScript tego zadania. Wypisz w konsoli wszystkie wcześniej przygotowane zmienne i ich typy.
+W przypadku tablic przeiteruj (używając np. pętli **for**), wypisując wartość i typ dla każdego elementu, który znajduje się w tablicy.
 
 ### Zadanie 3
 Wypisz w konsoli wartości ```innerHTML``` i ```outerHTML``` dla elementów zmiennej ```blocks```. Napisz w komentarzu, czym się od siebie różnią. Nastaw wartość ```innerHTML``` na "Nowa wartość diva o klasie blocks". Przeanalizuj, jak zmienił się kod HTML strony.
