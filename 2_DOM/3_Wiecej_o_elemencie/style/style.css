@@ -5,6 +5,9 @@
 .ex1 .big {
     font-size: 24px;
 }
+.ex1 a{
+    text-decoration: none;
+}
 
 .ex3 .chrome {
     background-size: contain;

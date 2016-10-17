@@ -4,6 +4,11 @@
 
 
 function canCreateTriagle(a, b, c) {
+    if(a + b > c && c + b >a && a + c >b) {
+        return true;
+    } else {
+        return false;
+    }
     // Do liczb odwołuj się przez zmienne a, b i c.
     // Pamiętaj o zwróceniu poprawnych danych (return true albo return false).
 }
